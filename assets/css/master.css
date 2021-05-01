@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  color: #3c4043;
+  font-family: "Google Sans", sans-serif;
+  font-weight: 500;
+}
+
+nav {
+  font-family: "Google Sans", sans-serif;
+  width: 100%;
+  position: fixed;
+  background-color: #FFFFFF;
+}
+nav .nav-up {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+nav .nav-up .left-side {
+  display: flex;
+  align-items: center;
+}
+nav .nav-up .left-side img {
+  width: 75px;
+}
+nav .nav-up .left-side span {
+  padding-left: 5px;
+  font-size: 22px;
+  color: #5f6368;
+  font-weight: 400;
+}
+nav .nav-up .right-side {
+  display: flex;
+  align-items: center;
+}
+nav .nav-up .right-side svg {
+  width: 24px;
+  cursor: pointer;
+  fill: #5f6368;
+}
+nav .nav-up .right-side img {
+  margin-left: 25px;
+  width: 32px;
+}
+nav .sub-nav ul {
+  display: flex;
+  padding: 0 20px;
+}
+nav .sub-nav ul li {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  list-style: none;
+}
+nav .sub-nav ul li.active {
+  border-bottom: 3px solid #3367d6;
+}
+nav .sub-nav ul li a {
+  color: #5f6368;
+}
+nav .sub-nav ul li a.active {
+  color: #3367d6 !important;
+}
+
+.question {
+  padding-top: 120px;
+}
+.question h2 {
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 64px;
+}
+.question h3 {
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 52px;
+}
+.question ol {
+  padding: 17px;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+}
+.question ol li {
+  padding: 0 10px;
+}
+.question p {
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 10px 0;
+  line-height: 24px;
+  padding-top: 20px;
+}
+.question p i {
+  padding-left: 5px;
+}
+.question p a {
+  color: #2962ff;
+}
+
+footer {
+  background-color: #F5F5F5;
+  font-family: Roboto, arial, sans-serif;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer-left ul {
+  display: flex;
+}
+footer .container .footer-left ul li {
+  padding: 15px 0;
+  list-style: none;
+  font-size: 11px;
+}
+footer .container .footer-left ul li a {
+  text-decoration: none;
+  color: #3d3d3d;
+  font-size: 11px;
+  margin: 0 5px;
+}
+footer .container .footer-right i {
+  color: #2962ff;
+  padding-right: 5px;
+}
+footer .container .footer-right select {
+  padding-right: 100px;
+}
